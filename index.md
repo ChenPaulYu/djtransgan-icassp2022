@@ -22,7 +22,7 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
 
 #### non-vocal to non-vocal (nv-nv)
 
-<table class="audio-table">
+<table style='text-align: center;'>
   <tbody>
     <tr>
       <td></td>
@@ -34,7 +34,7 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
     </tr>
     <tr>
       <td>A</td>
-      <td><audio controls=""><source src="./assets/audios/1/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls="" style='width: 100px; height: 30px;'><source src="./assets/audios/1/sum.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="./assets/audios/1/linear.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="./assets/audios/1/rule.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="./assets/audios/1/gan.wav" type="audio/mpeg" /></audio></td>
@@ -55,7 +55,7 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
 
 #### non-vocal to vocal (nv-v)
 
-<table class="audio-table">
+<table style='text-align: center;'>
   <tbody>
     <tr>
       <td></td>
@@ -90,7 +90,7 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
 
 #### vocal to non-vocal (v-nv)
 
-<table class="audio-table">
+<table style='text-align: center;'>
   <tbody>
     <tr>
       <td></td>
@@ -124,7 +124,7 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
 
 #### vocal to vocal (v-v)
 
-<table class="audio-table">
+<table style='font-size: 12px; text-align: center;'>
   <tbody>
     <tr>
       <td></td>
@@ -161,4 +161,3 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
 
 <hr>
 Bo-Yu Chen: bernie40916@gmail.com
-
