@@ -8,7 +8,7 @@ A central task of a Disc Jockey (DJ) playing music in a live setting is to contr
 ### Audio Samples
 
 <hr>
-We include 8 groups (A–-H) of paired tracks from the testing set and each transition type we include 2 groups of paired tracks. Furthermore, we create 5 mixes in each row by the following approaches with the same paired tracks.     
+We include 8 groups (A–H) of paired tracks from the testing set, and for each transition type, we include 2 groups of paired tracks. Furthermore, we create 5 mixes in each row by the following approaches with the same paired tracks.    
 <hr>
 
 1. `Sum`    : transitions created by summation of two tracks without any effects
