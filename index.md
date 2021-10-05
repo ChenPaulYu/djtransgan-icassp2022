@@ -8,18 +8,20 @@ A central task of a Disc Jockey (DJ) playing music in a livesetting  is  to  con
 ### Audio Samples
 
 <hr>
+We include 8 groups (A–-H) of paired tracks from the testing set and each transition type we include 2 groups of paired tracks. <br>
+We create 5 mixes in each row by the following approaches with the same paired tracks.     
+<hr>
 
 1. `Sum`    : transitions created by summation of two tracks without any effects
-2. `Linear` : transitions created by applying a linear cross-fading in the transition region.
-3. `Rule`   : transitions created by general purpose decision rules that we devised after consulting with expert DJs.
+2. `Linear` : transitions created by applying linear cross-fading in the transition region.
+3. `Rule`   : transitions created by general purpose expert DJs' rule.
 4. `GAN`    : transitions created by GANs' generator (our proposed).
 5. `Human`  : transitions created by an expert DJ.
 
 
-We presents 8 groups (A--H) of paired tracks from the testing set in the following. Each row contain 5 transitions created by approaches above.
 
 
-#### non-vocal to non vocal (nv-nv)
+#### non-vocal to non-vocal (nv-nv)
 
 <table class="audio-table">
   <tbody>
@@ -87,7 +89,7 @@ We presents 8 groups (A--H) of paired tracks from the testing set in the followi
 
 
 
-#### vocal to non-Vocal (v-nv)
+#### vocal to non-vocal (v-nv)
 
 <table class="audio-table">
   <tbody>
@@ -160,3 +162,4 @@ We presents 8 groups (A--H) of paired tracks from the testing set in the followi
 
 <hr>
 Bo-Yu Chen: bernie40916@gmail.com
+
