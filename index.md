@@ -16,14 +16,47 @@ A central task of a Disc Jockey (DJ) playing music in a livesetting  is  to  con
 5. `Human` : 
 
 
-| |Transition Type|Sum|Linear|Rule|GAN|Human|
-|A|nv-nv|<audio src="assets/audios/1/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/human.wav" controls="" preload=""></audio>|
-|B|nv-nv|<audio src="assets/audios/2/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/human.wav" controls="" preload=""></audio>|
-|C|nv-v|<audio src="assets/audios/3/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/human.wav" controls="" preload=""></audio>|
-|D|nv-v|<audio src="assets/audios/4/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/human.wav" controls="" preload=""></audio>|
+
+#### Non-Vocal to Non Vocal (nv-nv)
+
+<table class="audio-table">
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Sum</td>
+      <td>Linear</td>
+      <td>Rule</td>
+      <td>GAN</td>
+      <td>Human</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td><audio controls=""><source src="./assets/audios/1/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/1/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/1/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/1/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/1/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>B</td>
+      <td><audio controls=""><source src="./assets/audios/2/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/2/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/2/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/2/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/2/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
+
+
+
 
 ### Contact 
 
 <hr>
 Bo-Yu Chen: bernie40916@gmail.com
-
