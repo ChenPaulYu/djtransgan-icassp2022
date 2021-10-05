@@ -34,7 +34,7 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
     </tr>
     <tr>
       <td>A</td>
-      <td><audio controls="" style='width: 100px; height: 30px;'><source src="./assets/audios/1/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/1/sum.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="./assets/audios/1/linear.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="./assets/audios/1/rule.wav" type="audio/mpeg" /></audio></td>
       <td><audio controls=""><source src="./assets/audios/1/gan.wav" type="audio/mpeg" /></audio></td>
@@ -161,3 +161,4 @@ We include 8 groups (A–H) of paired tracks from the testing set, and for each 
 
 <hr>
 Bo-Yu Chen: bernie40916@gmail.com
+
