@@ -10,19 +10,21 @@ A central task of a Disc Jockey (DJ) playing music in a livesetting  is  to  con
 <hr>
 
 1. `Sum` : 
-2. Loop combination made by human based on Query loop (`Original`)
-3. Generated loop combination based on Query loop by `AutoMashupper`
-4. Generated loop combination based on Query loop by `CNN+reverse`
+2. `Linear` : 
+3. `Rule` : 
+4. `GAN` : 
+5. `Human` : 
+<div align="center">
 
-|   |Transition Type|Sum|Linear|Rule|GAN|Human|
-|1.|nv-nv|<audio src="assets/audios/1/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/human.wav" controls="" preload=""></audio>|
-|2.|nv-nv|<audio src="assets/audios/2/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/human.wav" controls="" preload=""></audio>|
-|3.|nv-v|<audio src="assets/audios/3/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/human.wav" controls="" preload=""></audio>|
-|4.|nv-v|<audio src="assets/audios/4/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/human.wav" controls="" preload=""></audio>|
+| |Transition Type|Sum|Linear|Rule|GAN|Human|
+|A|nv-nv|<audio src="assets/audios/1/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/1/human.wav" controls="" preload=""></audio>|
+|B|nv-nv|<audio src="assets/audios/2/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/2/human.wav" controls="" preload=""></audio>|
+|C|nv-v|<audio src="assets/audios/3/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/3/human.wav" controls="" preload=""></audio>|
+|D|nv-v|<audio src="assets/audios/4/sum.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/linear.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/rule.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/gan.wav" controls="" preload=""></audio>|<audio src="assets/audios/4/human.wav" controls="" preload=""></audio>|
 
+<div/>
 ### Contact 
 
 <hr>
-
-Bo-Yu Chen bernie40916@gmail.com
+Bo-Yu Chen: bernie40916@gmail.com
 
