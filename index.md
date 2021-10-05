@@ -9,15 +9,17 @@ A central task of a Disc Jockey (DJ) playing music in a livesetting  is  to  con
 
 <hr>
 
-1. `Sum` : 
-2. `Linear` : 
-3. `Rule` : 
-4. `GAN` : 
-5. `Human` : 
+1. `Sum`    : transitions created by summation of two tracks without any effects
+2. `Linear` : transitions created by applying a linear cross-fading in the transition region.
+3. `Rule`   : transitions created by general purpose decision rules that we devised after consulting with expert DJs.
+4. `GAN`    : transitions created by GANs' generator (our proposed).
+5. `Human`  : transitions created by an expert DJ.
 
 
+We presents 8 groups (A--H) of paired tracks from the testing set in the following. Each row contain 5 transitions created by approaches above.
 
-#### Non-Vocal to Non Vocal (nv-nv)
+
+#### non-vocal to non vocal (nv-nv)
 
 <table class="audio-table">
   <tbody>
@@ -50,9 +52,107 @@ A central task of a Disc Jockey (DJ) playing music in a livesetting  is  to  con
   </tfoot>
 </table>
 
+#### non-vocal to vocal (nv-v)
+
+<table class="audio-table">
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Sum</td>
+      <td>Linear</td>
+      <td>Rule</td>
+      <td>GAN</td>
+      <td>Human</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td><audio controls=""><source src="./assets/audios/3/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/3/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/3/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/3/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/3/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>D</td>
+      <td><audio controls=""><source src="./assets/audios/4/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/4/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/4/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/4/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/4/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tfoot>
+</table>
 
 
 
+#### vocal to non-Vocal (v-nv)
+
+<table class="audio-table">
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Sum</td>
+      <td>Linear</td>
+      <td>Rule</td>
+      <td>GAN</td>
+      <td>Human</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td><audio controls=""><source src="./assets/audios/5/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/5/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/5/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/5/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/5/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>F</td>
+      <td><audio controls=""><source src="./assets/audios/6/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/6/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/6/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/6/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/6/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tfoot>
+</table>
+
+
+#### vocal to vocal (v-v)
+
+<table class="audio-table">
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Sum</td>
+      <td>Linear</td>
+      <td>Rule</td>
+      <td>GAN</td>
+      <td>Human</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td><audio controls=""><source src="./assets/audios/7/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/7/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/7/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/7/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/7/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td>H</td>
+      <td><audio controls=""><source src="./assets/audios/8/sum.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/8/linear.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/8/rule.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/8/gan.wav" type="audio/mpeg" /></audio></td>
+      <td><audio controls=""><source src="./assets/audios/8/human.wav" type="audio/mpeg" /></audio></td>
+    </tr>
+  </tfoot>
+</table>
 
 
 
