@@ -3,13 +3,12 @@ This is the demo page for the paper **"Automatic DJ Transitions with Differentia
 
 
 ## Abstract
-A central task of a Disc Jockey (DJ) playing music in a livesetting  is  to  control  the  flow  of  music  with  seamless  tran-sitions between adjacent tracks by employing various audioeffects. This  involves  a  series  of  decisions  that  depend  onthe audio characteristics of the music being manipulated, for which a simple rule-based system cannot exhaustively enumerate. In this paper, we explore a data-driven approach that uses a generative adversarial  network to learn to create  the song  transition by learning from real-world  DJ  mixes. In particular, the generator of the model uses two differentiabledigital signal processing components, an Equalizer (EQ) and fader, to mix two tracks selected by a data generation pipeline. The generator has to set the parameters of the EQs and fader in such a way that the resulting mix resembles real mixes created by human DJ, as judged by the discriminator counterpart. Result of a listening test shows that the model can achieve competitive results compared with baselines.
+A central task of a Disc Jockey (DJ) playing music in a live setting is to control the flow of music with seamless transitions between adjacent tracks by employing various audio effects. This involves a series of decisions that depend on the audio characteristics of the music being manipulated, for which a simple rule-based system cannot exhaustively enumerate. In this paper, we explore a data-driven approach that uses a generative adversarial network to learn to create the song transition by learning from real-world DJ mixes. In particular, the generator of the model uses two differentiable digital signal processing components, an Equalizer (EQ) and fader, to mix two tracks selected by a data generation pipeline. The generator has to set the parameters of the EQs and fader in such a way that the resulting mix resembles real mixes created by human DJ, as judged by the discriminator counterpart. Result of a listening test shows that the model can achieve competitive results compared with baselines.
 
 ### Audio Samples
 
 <hr>
-We include 8 groups (A–-H) of paired tracks from the testing set and each transition type we include 2 groups of paired tracks. <br>
-We create 5 mixes in each row by the following approaches with the same paired tracks.     
+We include 8 groups (A–-H) of paired tracks from the testing set and each transition type we include 2 groups of paired tracks. Furthermore, we create 5 mixes in each row by the following approaches with the same paired tracks.     
 <hr>
 
 1. `Sum`    : transitions created by summation of two tracks without any effects
