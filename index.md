@@ -12,10 +12,10 @@ We include 8 groups (A–-H) of paired tracks from the testing set and each tran
 <hr>
 
 1. `Sum`    : transitions created by summation of two tracks without any effects
-2. `Linear` : transitions created by applying linear cross-fading in the transition region.
-3. `Rule`   : transitions created by general purpose expert DJs' rule.
-4. `GAN`    : transitions created by GANs' generator (our proposed).
-5. `Human`  : transitions created by an expert DJ.
+2. `Linear` : transitions created by applying linear cross-fading in the transition region
+3. `Rule`   : transitions created by general purpose expert DJs' rule
+4. `GAN`    : transitions created by GANs' generator (our proposed)
+5. `Human`  : transitions created by an expert DJ
 
 
 
