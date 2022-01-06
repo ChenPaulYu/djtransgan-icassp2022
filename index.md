@@ -15,8 +15,8 @@ We include 8 groups (A–H) of paired tracks (x1, x2) from the testing set, and 
 
 
 
-1. `Prev`   : track which is considered to be the first track in a mix as shown in Fig above (x1)
-2. `Next`   : track which is considered to be the second track in a mix as shown in Fig above (x1)
+1. `Prev`   : track which is considered to be the first track in a mix as shown in figure above (x1)
+2. `Next`   : track which is considered to be the second track in a mix as shown in figure above (x2)
 3. `Sum`    : transitions created by summation of two tracks without any effects
 4. `Linear` : transitions created by applying linear cross-fading in the transition region
 5. `Rule`   : transitions created by general purpose expert DJs' rule
