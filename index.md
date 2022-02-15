@@ -1,4 +1,4 @@
-This is the demo page for the paper **"Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks"**. Source code can be found [here](https://github.com/ChenPaulYu/DJtransGAN).
+This is the demo page for the paper **"Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks"**.
 
 
 ## Abstract
